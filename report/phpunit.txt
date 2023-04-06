@@ -1,0 +1,22 @@
+Cart (Recruitment\Tests\Cart\Cart)
+ [x] It adds one product
+ [x] It removes existing product
+ [x] It increases quantity when adding an existing product
+ [x] It updates quantity of an existing item
+ [x] It adds a new item while setting quantity for non existent item
+ [x] It throws exception while getting non existent item with data set #0
+ [x] It throws exception while getting non existent item with data set #1
+ [x] It throws exception while getting non existent item with data set #2
+ [x] It throws exception while getting non existent item with data set #3
+ [x] Removing non existent item does not raise exception
+ [x] It clears cart after checkout
+
+Item (Recruitment\Tests\Cart\Item)
+ [x] It accepts constructor arguments and returns data
+ [x] Constructor throws exception when quantity is too low
+ [x] It throws exception when setting too low quantity
+
+Product (Recruitment\Tests\Entity\Product)
+ [x] It throws exception for invalid unit price
+ [x] It throws exception for invalid minimum quantity
+
